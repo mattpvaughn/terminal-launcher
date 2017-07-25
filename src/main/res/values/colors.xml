@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bcd42a</color>
+    <color name="colorStatusBar">#252828</color>
+    <color name="colorBackground">#2b2a27</color>
+    <color name="colorBackgroundLight">#474541</color>
+</resources>

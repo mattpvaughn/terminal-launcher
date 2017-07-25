@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:editTextStyle">@style/AppTheme</item>
+           
+        <item name="android:colorPrimaryDark">@color/colorStatusBar</item>
+    </style>
+</resources>

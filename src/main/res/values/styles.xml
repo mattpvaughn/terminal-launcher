@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:editTextStyle">@style/AppTheme</item>
+    </style>
+
+
+    <style name="TerminalTextView" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="TerminalEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:editTextStyle">@style/AppTheme</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:inputType">textFilter</item>
+    </style>
+
+</resources>

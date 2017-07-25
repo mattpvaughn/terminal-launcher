@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Terminal Launcher</string>
+    <string name="date_and_time">7/21/2017    10:39pm</string>
+    <string name="terminal_placeholder_text">/DEVICE_NAME/:</string>
+</resources>
